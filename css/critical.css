@@ -9,6 +9,7 @@
     padding-top: 9.375em;
     position: relative;
     z-index: 1;
+    min-height: 100vh;
   }
   #hero:before {
     content: '';
@@ -136,7 +137,7 @@
   .services {
     border-radius: 0.3125em;
     margin: auto;
-    margin-top: -10.4375em;
+    margin-top: 10.4375em;
     position: relative;
     z-index: 100;
     background: #fff;
