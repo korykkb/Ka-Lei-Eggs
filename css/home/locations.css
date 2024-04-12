@@ -1,0 +1,47 @@
+.locations {
+    display: flex;
+}
+
+.locations-div {
+    display: flex;
+}
+
+.locations-div ul {
+    margin-left: 20px;
+    
+}
+
+.locations-div li {
+    list-style: none;
+}
+
+.locations-div img {
+    width: 50%;
+}
+
+.locations-div2 h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.locations-div2 img {
+    width: 50%;
+    height: auto
+}
+
+#cvs {
+    width: 40%
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, 200px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+
