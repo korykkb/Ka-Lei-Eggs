@@ -4,8 +4,8 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: rgba(232,61,82,255);
-    --primaryShade: rgb(192, 3, 31);
+    --primary: rgb(192, 3, 31);
+    --primaryShade: rgba(232,61,82,255);
     --primaryDark: #805d0d;
     --bodyText: #1a1a1a;
   }
@@ -41,7 +41,7 @@
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: poppins;
     color: var(--bodyText);
     overflow-x: hidden;
   }
