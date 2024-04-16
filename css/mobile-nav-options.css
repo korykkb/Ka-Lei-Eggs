@@ -32,7 +32,7 @@
     height: 100%;
   }
   #navigation .logo .light {
-    display: none;
+    width: 300px;
   }
   #navigation .logo .dark {
     display: block;
